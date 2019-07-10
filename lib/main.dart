@@ -32,7 +32,27 @@ class MyApp extends StatelessWidget {
                   Text(
                     'Andy Lee',
                     style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold),
+                      fontFamily: 'Pacifico',
+                      fontSize: 40.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  Text(
+                    'FLUTTER DEVELOPER',
+                    style: TextStyle(
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 20.0,
+                      color: Colors.teal.shade100,
+                      letterSpacing: 3.0,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ],
               ),
